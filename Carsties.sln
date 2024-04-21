@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "AuctionService\AuctionService.csproj", "{C8F288F9-DE81-4B4D-AE3C-9259165FA1EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{30F58585-425C-4F47-8151-C41AB8470578}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3F652E06-BBFA-476E-986D-6C3C4D528AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8F288F9-DE81-4B4D-AE3C-9259165FA1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F288F9-DE81-4B4D-AE3C-9259165FA1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F288F9-DE81-4B4D-AE3C-9259165FA1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F288F9-DE81-4B4D-AE3C-9259165FA1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F652E06-BBFA-476E-986D-6C3C4D528AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F652E06-BBFA-476E-986D-6C3C4D528AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F652E06-BBFA-476E-986D-6C3C4D528AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F652E06-BBFA-476E-986D-6C3C4D528AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6332FDF0-5CE8-4AB0-828A-937FBE0FA164}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8F288F9-DE81-4B4D-AE3C-9259165FA1EF} = {30F58585-425C-4F47-8151-C41AB8470578}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
+EndGlobal
